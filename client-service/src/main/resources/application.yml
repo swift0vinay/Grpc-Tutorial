@@ -1,0 +1,8 @@
+grpc:
+  client:
+    vj-service:
+      address: static://localhost:9000
+      negotiationType: plaintext
+    vj-async-service:
+      address: static://localhost:9000
+      negotiationType: plaintext
